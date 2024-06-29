@@ -1,15 +1,22 @@
 package com.libowen;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.TextField;
 
 public class HelloController {
 
     @FXML
-    private Label welcomeText;
+    private CheckBox cdCheckBox;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
+    private CheckBox sunLockCheckBox;
+
+    @FXML
+    private Button sunValueButton;
+
+    @FXML
+    private TextField sunValueTextField;
+
 }

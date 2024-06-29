@@ -14,8 +14,9 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load(), 480, 360);
+        stage.setTitle("pvz trainer");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
